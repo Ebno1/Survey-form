@@ -7,6 +7,54 @@
     <title>Document</title>
 </head>
 <body>
-    <p>hello world</p>
+    <div class="container">
+        <h1 id="title">A survey form</h1>
+        <p id="description">Developers in Africa</p>
+        <form action="" id="survey-form">
+            <label for="">Name</label>
+            <input type="text" id="name-label" placeholder="enter your name"><br><br>
+            <label for="">Email</label>
+            <input type="email" id="email-label" placeholder="enter your email"><br><br>
+            <label for="">Age</label>
+            <input type="number" min="13" max="30" id="number-label" placeholder="enter your age"><br>
+            <div>
+                <p>would you recommend your favourite Developer</p>
+                <label for="maybe">Maybe</label>
+                <input type="radio" id="maybe"><br>
+                <label for="maybe-not">Maybe not</label>
+                <input type="radio" id="maybe-not"><br>
+            </div>
+            <div>
+                <p>How proffesional would you say developer is?</p>
+                <select name="" id="">
+                    <option value="Exellent">Exellent</option>
+                    <option value="Very good">Very good</option>
+                    <option value="good">good</option>
+                    <option value="mediocere">mediocere</option>
+                    <option value="not good">not good</option>
+                </select>
+            </div>
+            <div>
+                <p>What is your field?</p>
+                <input type="checkbox" id="front">
+                <label for="front">Front end</label><br>
+                <input type="checkbox" id="front">
+                <label for="back">Back end</label><br>
+                <input type="checkbox" id="data">
+                <label for="data">Data science</label><br>
+                <input type="checkbox" id="Cyber">
+                <label for="Cyber">Cyber security</label><br>
+                <input type="checkbox" id="Devops">
+                <label for="Devops">Devops Engineer</label><br>
+                <input type="checkbox" id="full">
+                <label for="full">Fullstack developer</label><br>
+            </div>
+            <div>
+                <label for="comment">Do you have any comment?</label>
+                <textarea name="comment" width="5rem" height="4rem"></textarea>
+            </div>
+            <button id="submit">Submit</button>
+        </form>
+    </div>
 </body>
 </html>
