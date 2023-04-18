@@ -1,0 +1,30 @@
+.container{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 1.5rem;
+}
+#description{
+ color: blue;
+ font-family: fantasy;
+}
+#survey-form{
+    background-color: deeppink;
+    padding: 1rem;
+    text-align: left;
+}
+#Info input{
+    width: 80%;
+}
+textarea{
+    width: 600px;
+    height: 100px;
+}
+.comment-div{
+    margin-top: 1rem;
+}
+body{
+    background-image: url("images.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
